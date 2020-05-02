@@ -11,8 +11,9 @@
         "php": "^7.1.3",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.8.*",
+        "laravel/nova": "*",
         "laravel/tinker": "^1.0",
-        "laravel/nova": "*"
+        "moontoast/math": "1.1.2 as 1.999.999"
     },
     "repositories": [{
         "type": "path",
