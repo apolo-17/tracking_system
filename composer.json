@@ -11,8 +11,9 @@
         "php": "^7.1.3",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.8.*",
+        "laravel/nova": "*",
         "laravel/tinker": "^1.0",
-        "laravel/nova": "*"
+        "phpseclib/bcmath_compat": "^1.0"
     },
     "repositories": [{
         "type": "path",
