@@ -13,7 +13,8 @@
         "laravel/framework": "5.8.*",
         "laravel/nova": "*",
         "laravel/tinker": "^1.0",
-        "phpseclib/bcmath_compat": "^1.0"
+        "phpseclib/bcmath_compat": "^1.0.5",
+        "phpseclib/phpseclib": "^2.0"
     },
     "repositories": [{
         "type": "path",
