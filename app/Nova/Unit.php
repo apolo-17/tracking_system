@@ -30,7 +30,7 @@ class Unit extends Resource
      * @var array
      */
     public static $search = [
-        'id',
+        'id', 'name', 'licence_plate', 'model', 'trademark'
     ];
 
     /**
