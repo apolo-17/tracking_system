@@ -12,8 +12,11 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        if (App::isLocal()) {
+        factory(User::class, 50)->create();
+        User::create(['name' => 'Apolinar Morales', 'email' => 'apolinar.morales.a@gmail.com', 'password' => '123123']);
+        /* if (App::isLocal()) {
             factory(User::class, 50)->create();
-        }
+            User::create(['name' => 'Apolinar Morales', 'email' => 'apolinar.morales.a@gmail.com', 'password' => '123123']);
+        } */
     }
 }

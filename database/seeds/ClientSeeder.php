@@ -12,8 +12,8 @@ class ClientSeeder extends Seeder
      */
     public function run()
     {
-        if (App::isLocal()) {
-            factory(Client::class, 25)->create();
-        }
+        //if (App::isLocal()) {
+        factory(Client::class, 25)->create();
+        //}
     }
 }
