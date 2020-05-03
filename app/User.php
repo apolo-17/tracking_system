@@ -37,6 +37,8 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
+    protected $with = ['typeUser'];
+
     public function typeUser()
     {
         return $this->belongsTo(TypeUser::class);
